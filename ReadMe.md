@@ -48,12 +48,12 @@ mvn clean install
 To start the server, run the following command:
 
 ```bash
-java -jar target/original-redis-clone-1.0-SNAPSHOT.jar
+java --enable-preview -jar target/redis-clone-1.0-SNAPSHOT.jar
 ```
 
 ### Running the commands
 
-Once the server is running, you can connect to it using `telnet` or `nc` and run the supported commands.
+Once the server is running, you can connect to it using redis-cli
 
 ```bash
 redis-cli
@@ -83,13 +83,4 @@ SET mykey myvalue
 GET mykey
 ```
 
-## Development
-
-To contribute to this project:
-
-1. Fork it on GitHub.
-2. Create your feature branch (`git checkout -b my-new-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin my-new-feature`).
-5. Create a new Pull Request.
 
