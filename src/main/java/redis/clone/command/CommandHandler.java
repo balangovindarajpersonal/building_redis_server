@@ -1,6 +1,6 @@
 package redis.clone.command;
 
-import redis.clone.KeyValueStore;
+import redis.clone.datastructure.KeyValueStore;
 
 import java.util.HashMap;
 import java.util.Map;

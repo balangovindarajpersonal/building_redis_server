@@ -1,4 +1,4 @@
-package redis.clone;
+package redis.clone.datastructure;
 
 import java.util.concurrent.ConcurrentHashMap;
 

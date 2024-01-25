@@ -1,7 +1,8 @@
-package redis.clone;
+package redis.clone.connections;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import redis.clone.protocol.SimpleRedisProtocolHandler;
 import redis.clone.command.CommandHandler;
 
 import java.io.IOException;

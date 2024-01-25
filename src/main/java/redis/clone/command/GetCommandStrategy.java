@@ -1,6 +1,6 @@
 package redis.clone.command;
 
-import redis.clone.KeyValueStore;
+import redis.clone.datastructure.KeyValueStore;
 
 public class GetCommandStrategy implements CommandStrategy {
     private final KeyValueStore keyValueStore;

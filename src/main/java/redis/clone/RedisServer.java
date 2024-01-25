@@ -3,6 +3,8 @@ package redis.clone;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import redis.clone.command.CommandHandler;
+import redis.clone.connections.ClientHandler;
+import redis.clone.datastructure.KeyValueStore;
 
 import java.io.IOException;
 import java.net.ServerSocket;
