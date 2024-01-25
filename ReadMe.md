@@ -31,7 +31,7 @@ What things you need to install the software:
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/your-username/java-redis-clone.git](https://github.com/balangovindarajpersonal/building_redis_server)
+git clone https://github.com/balangovindarajpersonal/building_redis_server
 cd redis-clone
 ```
 
