@@ -84,3 +84,7 @@ SET mykey myvalue
 GET mykey
 ```
 
+### See Also Decision Records 
+
+ ** [Language Choice DR](https://github.com/balangovindarajpersonal/building_redis_server/blob/master/src/main/resources/Language_DR.md)
+ ** [Datastructure DR](https://github.com/balangovindarajpersonal/building_redis_server/blob/master/src/main/resources/DataStructure_DR.md)
